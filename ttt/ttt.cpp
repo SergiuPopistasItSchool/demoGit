@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
+#include <string>
 
 int main()
 {
     std::cout << "Hello World!\n";
+    std::cout << "What is your name?:\n";
+    std::string userName;
+    std::cin >> userName;
+    std::cout << "Hey " << userName << " nice to meet you\n";
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
