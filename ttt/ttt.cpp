@@ -11,6 +11,10 @@ int main()
     std::string userName;
     std::cin >> userName;
     std::cout << "Hey " << userName << " nice to meet you\n";
+    std::string userName2;
+    std::cin >> userName2;
+    std::cout << "Hey " << userName2 << " nice to meet you\n";
+
 
 }
 
